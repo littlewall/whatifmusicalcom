@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import "../globals.css";
-import styles from "./mtfestuk2025.module.css";
+import styles from "./mtfestuk2026.module.css";
 import Image from "next/image";
 
 const inter = Inter({ subsets: ["latin"] });
@@ -17,6 +17,9 @@ export default function MTFESTUK2025Layout({
 }>) {
   return (
     <html lang="en">
+      <head>
+        <script src="https://cdn.jsdelivr.net/npm/@lwdev/audio-player@latest" type="module"></script>
+      </head>
       <body className={inter.className}>
         <main className="container">
           <div className={styles.center}>
