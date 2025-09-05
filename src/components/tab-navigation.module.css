@@ -1,0 +1,110 @@
+.tabNavigation {
+  display: none;
+  gap: 4px;
+  padding: 4px;
+  background-color: color-mix(in srgb, #102338 5%, white);
+  border-radius: 8px;
+}
+
+@media (min-width: 1024px) {
+  .tabNavigation {
+    display: flex;
+  }
+}
+
+.tabButton {
+  flex: 1;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  white-space: nowrap;
+  border-radius: 6px;
+  font-size: 14px;
+  font-weight: 500;
+  transition: all 200ms;
+  border: none;
+  cursor: pointer;
+  text-decoration: none;
+  padding: 8px 12px;
+  min-height: 32px;
+}
+
+.tabButton:focus-visible {
+  outline: 2px solid #102338;
+  outline-offset: 2px;
+}
+
+.tabButtonActive {
+  background-color: #102338;
+  color: white;
+  box-shadow: 0 1px 2px 0 rgb(0 0 0 / 0.05);
+}
+
+.tabButtonInactive {
+  background-color: transparent;
+  color: color-mix(in srgb, #102338 85%, black);
+}
+
+.tabButtonInactive:hover {
+  background-color: color-mix(in srgb, #102338 10%, white);
+}
+
+.mobileDropdown {
+  display: block;
+}
+
+@media (min-width: 1024px) {
+  .mobileDropdown {
+    display: none;
+  }
+}
+
+.dropdownTrigger {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  white-space: nowrap;
+  border-radius: 6px;
+  border: 1px solid color-mix(in srgb, #102338 30%, white);
+  background-color: color-mix(in srgb, #102338 15%, white);
+  padding: 8px 12px;
+  font-size: 14px;
+  font-weight: 500;
+  cursor: pointer;
+  min-height: 36px;
+}
+
+.dropdownTrigger:hover {
+  background-color: color-mix(in srgb, #102338 20%, white);
+}
+
+.dropdownTrigger:focus-visible {
+  outline: 2px solid #102338;
+  outline-offset: 2px;
+}
+
+.chevronIcon {
+  height: 16px;
+  width: 16px;
+}
+
+.dropdownItem {
+  width: 100%;
+  cursor: pointer;
+  display: block;
+  padding: 6px 8px;
+  text-decoration: none;
+  color: color-mix(in srgb, #102338 85%, black);
+  border-radius: 4px;
+  transition: background-color 200ms;
+}
+
+.dropdownItem:hover {
+  background-color: color-mix(in srgb, #102338 20%, white);
+}
+
+.dropdownItemActive {
+  background-color: #102338;
+  color: white;
+}
