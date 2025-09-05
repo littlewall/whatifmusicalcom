@@ -27,7 +27,7 @@ export default function Creatives() {
             width={200}
             height={200}
           />
-          <h2 className={styles.creativeName}>Milan Zítka</h2>
+          <h2 className={styles.creativeName}>Milan Zítka <span>(he/him)</span></h2>
           <h3 className={styles.creativeRole}>Book, Lyrics, Music</h3>
           <p>
             Milan is a Czech composer and lyricist. He studied composition at the Jaroslav Ježek Conservatory in Prague. His first original musical, Mistr jazzu, was staged at the Karlovy Vary City Theatre. He has also performed in Czech productions of Les Misérables, The Phantom of the Opera, and RENT.

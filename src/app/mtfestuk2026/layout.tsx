@@ -1,6 +1,5 @@
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
-import Script from "next/script";
 import "../globals.css";
 import styles from "./mtfestuk2026.module.css";
 import Image from "next/image";
@@ -18,11 +17,10 @@ export default function MTFESTUK2025Layout({
 }>) {
   return (
     <html lang="en">
+      <head>
+        <script src="https://cdn.jsdelivr.net/npm/@lwdev/audio-player@latest" type="module" async></script>
+      </head>
       <body className={inter.className}>
-        <Script 
-          src="https://cdn.jsdelivr.net/npm/@lwdev/audio-player@latest" 
-          strategy="beforeInteractive"
-        />
         <main className="container">
           <div className={styles.center}>
               <Image
