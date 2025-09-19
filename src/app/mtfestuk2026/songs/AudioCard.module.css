@@ -1,0 +1,79 @@
+.audioCard {
+  width: 100%;
+  background: #ffffff;
+  border: 1px solid #e5e7eb;
+  border-radius: 12px;
+  padding: 20px;
+  margin-bottom: 16px;
+}
+
+.audioControls {
+  margin-bottom: 16px;
+}
+
+.audioPlayer {
+  width: 100%;
+  height: 40px;
+  border-radius: 8px;
+}
+
+.downloadButtons {
+  display: flex;
+  gap: 12px;
+}
+
+.downloadBtn {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  padding: 12px 16px;
+  border: none;
+  border-radius: 8px;
+  font-size: 14px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+.audioDownload {
+  background: #374151;
+  color: #f3f4f6;
+}
+
+.audioDownload:hover {
+  background: #28303c;
+}
+
+.lyricsDownload {
+  background: #f3f4f6;
+  color: #374151;
+}
+
+.lyricsDownload:hover {
+  background: #d1d5db;
+}
+
+.downloadIcon {
+  font-size: 16px;
+  font-weight: bold;
+}
+
+@media (prefers-color-scheme: dark) {
+  .audioCard {
+    background: #1f2937;
+    border-color: #374151;
+  }
+
+  .audioDownload,
+  .lyricsDownload {
+    background: #374151;
+    color: #f9fafb;
+  }
+
+  .audioDownload:hover,
+  .lyricsDownload:hover {
+    background: #4b5563;
+  }
+}
