@@ -112,7 +112,7 @@ export default function Songs() {
         />
         <div 
           style={{
-            padding: "127.78% 0 0 0",
+            padding: "107.78% 0 0 0",
             position: "relative",
             width: "100%",
             maxWidth: "400px",

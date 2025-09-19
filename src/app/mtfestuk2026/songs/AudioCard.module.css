@@ -1,10 +1,6 @@
 .audioCard {
   width: 100%;
-  background: #ffffff;
-  border: 1px solid #e5e7eb;
-  border-radius: 12px;
-  padding: 20px;
-  margin-bottom: 16px;
+  margin-bottom: 72px;
 }
 
 .audioControls {
