@@ -2,6 +2,7 @@
 
 import styles from "../mtfestuk2026.module.css";
 import { TabNavigation } from "../../../components/tab-navigation";
+import Script from "next/script";
 
 const navigationTabs = [
   { label: "Synopsis", href: "/mtfestuk2026/synopsis", active: false },
@@ -45,7 +46,7 @@ export default function DevelopmentHistory() {
             title="What if..? | Realm of Dreams"
           ></iframe>
         </div>
-        <script src="https://player.vimeo.com/api/player.js"></script>
+        <Script src="https://player.vimeo.com/api/player.js" strategy="lazyOnload" />
       </div>
     </>
   );

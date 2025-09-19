@@ -3,6 +3,7 @@
 import styles from "../mtfestuk2026.module.css";
 import cardStyles from "./AudioCard.module.css"
 import { TabNavigation } from "../../../components/tab-navigation";
+import Script from "next/script";
 
 declare global {
   namespace JSX {
@@ -133,7 +134,7 @@ export default function Songs() {
               title="What if..? | Playout"
             ></iframe>
           </div>
-          <script src="https://player.vimeo.com/api/player.js"></script>
+          <Script src="https://player.vimeo.com/api/player.js" strategy="lazyOnload" />
       </div>
     </>
   );
