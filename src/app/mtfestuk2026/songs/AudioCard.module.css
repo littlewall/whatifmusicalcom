@@ -55,21 +55,3 @@
   font-size: 16px;
   font-weight: bold;
 }
-
-@media (prefers-color-scheme: dark) {
-  .audioCard {
-    background: #1f2937;
-    border-color: #374151;
-  }
-
-  .audioDownload,
-  .lyricsDownload {
-    background: #374151;
-    color: #f9fafb;
-  }
-
-  .audioDownload:hover,
-  .lyricsDownload:hover {
-    background: #4b5563;
-  }
-}
